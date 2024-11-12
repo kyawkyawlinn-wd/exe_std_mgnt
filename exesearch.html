@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+  <style>
+     
+  </style>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="alert alert-success alert-dismissible show fade">
+            <span>Con!! you pass the test</span>
+            <span class="badge bg-success">5</span>
+            <button class="btn btn-close" data-bs-dismiss="alert"></button>
+        </div>
+        <form action="">
+            <div class="form-floating">
+              <input type="text" class="form-control" placeholder="">
+              <label for="text" class="form-label">Your Name</label>
+            </div>
+        </form>
+        <a class="btn btn-sm btn-primary" href="./class_list.php?class_id=<?= $classes['class_id']?>">Update</a>
+    </div>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>
